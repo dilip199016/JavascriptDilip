@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Room with chairs and circles</title>
+	<style>
+		.room {
+			width: 500px;
+			height: 300px;
+			border: 2px solid black;
+			position: relative;
+			margin: 20px auto;
+		}
+		
+		.chair {
+			width: 40px;
+			height: 40px;
+			background-color: brown;
+			position: absolute;
+			bottom: 0;
+		}
+		
+		.chair:nth-child(1) {
+			left: 100px;
+		}
+		
+		.chair:nth-child(2) {
+			left: 200px;
+		}
+		
+		.chair:nth-child(3) {
+			left: 300px;
+		}
+		
+		.chair:nth-child(4) {
+			left: 400px;
+		}
+		
+		.chair:nth-child(5) {
+			left: 50px;
+		}
+		
+		.circle {
+			width: 60px;
+			height: 60px;
+			background-color: red;
+			border-radius: 50%;
+			position: absolute;
+			top: 0;
+		}
+		
+		.circle:nth-child(1) {
+			right: 50px;
+			top: 100px;
+		}
+		
+		.circle:nth-child(2) {
+			left: 50px;
+			top: 150px;
+		}
+	</style>
+</head>
+<body>
+	<div class="room">
+		<div class="chair"></div>
+		<div class="chair"></div>
+		<div class="chair"></div>
+		<div class="chair"></div>
+		<div class="chair"></div>
+		<div class="circle"></div>
+		<div class="circle"></div>
+	</div>
+</body>
+</html>

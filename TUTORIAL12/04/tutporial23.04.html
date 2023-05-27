@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.input{
+    border: 2px double solid blue;
+    width: 200px;
+    margin-top: 10px;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    
+}
+</style>
+
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body><div>
+
+
+    <h2 style="color: brown;">Feedback Form</h2>
+
+    <div class="parent">
+   <input placeholder="Enter Name"class="input" style="border: 2px double purple"/>
+   <input type="number" placeholder="Mobile Number" class="input" style="border-radius: 70% red;">
+   <input type="checkbox"class="input" />
+   <input type="color" class="input"/>
+   <input type="date" class="input"/>
+   <input type="time" class="input"/>
+   <input type="range" class="input" min="10" step="10" max="100"/>
+   <input type="radio" class="input"/>
+</div>
+  </div> 
+  <div class="feedback">
+    <p>Dear Customer,<br>
+    Thank you for getting your car services at our workshop.</p>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="feedback">Feedback:</label><br>
+      <textarea id="feedback" name="feedback"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+  </div>
+</body>
+</html>
